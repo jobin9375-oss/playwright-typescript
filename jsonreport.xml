@@ -1,0 +1,232 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\jobin.jose\\OneDrive - SAKSOFT LIMITED\\Desktop\\Playwright-Typescript\\playwright.config.ts",
+    "rootDir": "C:/Users/jobin.jose/OneDrive - SAKSOFT LIMITED/Desktop/Playwright-Typescript/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/jobin.jose/OneDrive - SAKSOFT LIMITED/Desktop/Playwright-Typescript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/jobin.jose/OneDrive - SAKSOFT LIMITED/Desktop/Playwright-Typescript/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "junit",
+        {
+          "outputFile": "junitreport.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonreport.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.59.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "parameterizedusingxlsx.spec.ts",
+      "file": "parameterizedusingxlsx.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "login data driven test using Json",
+          "file": "parameterizedusingxlsx.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [
+            {
+              "title": "parametrized using jason for laura.taylor1234@example.com and test123 ",
+              "ok": true,
+              "tags": [
+                "example.com"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4408,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-16T07:30:51.305Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2702cac06cd5e8acf34a-3156c7fcfc70aea0a09b",
+              "file": "parameterizedusingxlsx.spec.ts",
+              "line": 19,
+              "column": 13
+            },
+            {
+              "title": "parametrized using jason for laura.taylor3451@example.com and test123 ",
+              "ok": true,
+              "tags": [
+                "example.com"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2188,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-16T07:30:56.423Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2702cac06cd5e8acf34a-6799e1c9dd207b3d081d",
+              "file": "parameterizedusingxlsx.spec.ts",
+              "line": 19,
+              "column": 13
+            },
+            {
+              "title": "parametrized using jason for laura.taylor1234@example.com and test345 ",
+              "ok": true,
+              "tags": [
+                "example.com"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1841,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-16T07:30:58.630Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2702cac06cd5e8acf34a-00e111b6893da977f93f",
+              "file": "parameterizedusingxlsx.spec.ts",
+              "line": 19,
+              "column": 13
+            },
+            {
+              "title": "parametrized using jason for  and  ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1950,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-16T07:31:00.493Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2702cac06cd5e8acf34a-5e082518b249c2e0c6a3",
+              "file": "parameterizedusingxlsx.spec.ts",
+              "line": 19,
+              "column": 13
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-16T07:30:48.406Z",
+    "duration": 14115.177000000001,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

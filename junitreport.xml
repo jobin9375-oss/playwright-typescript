@@ -1,0 +1,12 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="14.115177000000001">
+<testsuite name="parameterizedusingxlsx.spec.ts" timestamp="2026-04-16T07:30:49.861Z" hostname="chromium" tests="4" failures="0" skipped="0" time="10.387" errors="0">
+<testcase name="login data driven test using Json › parametrized using jason for laura.taylor1234@example.com and test123 " classname="parameterizedusingxlsx.spec.ts" time="4.408">
+</testcase>
+<testcase name="login data driven test using Json › parametrized using jason for laura.taylor3451@example.com and test123 " classname="parameterizedusingxlsx.spec.ts" time="2.188">
+</testcase>
+<testcase name="login data driven test using Json › parametrized using jason for laura.taylor1234@example.com and test345 " classname="parameterizedusingxlsx.spec.ts" time="1.841">
+</testcase>
+<testcase name="login data driven test using Json › parametrized using jason for  and  " classname="parameterizedusingxlsx.spec.ts" time="1.95">
+</testcase>
+</testsuite>
+</testsuites>
