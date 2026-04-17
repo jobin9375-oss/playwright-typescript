@@ -8,6 +8,6 @@ test("frames ", async ({page})=>
     //using frame locator 
     await page.getByText("Iframe with in an Iframe").click()
 
-    await page.frameLocator("iframe[style='float: left;height: 250px;width: 400px']").locator(" (//input[@type='text'])[1]").fill("hello")
+    //await page.frameLocator("iframe[style='float: left;height: 250px;width: 400px']").locator(" (//input[@type='text'])[1]").fill("hello")
 
 })

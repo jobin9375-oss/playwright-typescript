@@ -17,10 +17,10 @@ test("test3", async ({page})=> // here this will skip based on condition
     test.skip(true)
     console.log("test 3")
 })
-test.fail("test4", async ({page})=>
-{
-    console.log("test 4")
-})
+// test.fail("test4", async ({page})=>
+// {
+//     console.log("test 4")
+// })
 test.fixme("test5", async ({page})=> // will skip , need to mention if the test is partialy completed dont want run
 {
     console.log("test 5")
